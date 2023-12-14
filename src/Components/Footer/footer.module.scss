@@ -1,0 +1,52 @@
+.footer{
+    .container{
+        width: 90%;
+        margin-top: 40px;
+        margin-inline: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left{
+
+        }
+        .right{
+            ul{
+                display: flex;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+    }
+    hr{
+        width: 90%;
+        height: 1px;
+        border-radius: 5px;
+        margin: 20px 0;
+        margin-inline: auto;
+        background: #3E3942;
+        
+    }
+    .subContainer{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 90%;
+        margin-inline: auto;
+
+        .subLeft{
+            margin-bottom: 50px;
+        }
+        .subRight{
+            ul{
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                li{
+                    margin-bottom: 50px;
+                }
+            }
+
+        }
+
+    }
+}

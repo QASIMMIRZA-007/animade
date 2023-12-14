@@ -1,0 +1,50 @@
+section {
+  h1 {
+  }
+  .container {
+    .subContainer {
+      width: 90%;
+      margin-inline: auto;
+      h3 {
+        margin-left: 100px;
+        margin-bottom: 20px;
+        color: var(--Dark-V0, #fff);
+        font-family: " Switzer";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+      h4 {
+        margin-left: 100px;
+        margin-top: 90px;
+        margin-bottom: 20px;
+        color: var(--Dark-V0, #fff);
+        font-family: Switzer;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+      }
+
+      .card {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 26px;
+        
+
+        flex-wrap: wrap;
+        .cardImg {
+          img {
+            border-radius: 12px;
+            width: 220px;
+            margin: 10px 0;
+          }
+        }
+      }
+    }
+  }
+}

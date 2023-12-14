@@ -1,0 +1,60 @@
+.mission {
+  background: #241d24;
+  opacity: 0.9;
+  h1 {
+    color: var(--Dark-V0, #fff);
+    text-align: center;
+    font-family: Switzer;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+  }
+
+  .para {
+    color: var(--Dark-V0, #fff);
+    text-align: center;
+    font-family: Satoshi, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    // width: 558px;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .left {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      h2 {
+        color: var(--Dark-V0, #fff);
+        font-family: Switzer, sans-serif;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .p {
+        color: var(--Dark-V50, #c4c3c5);
+        font-family: Satoshi, sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;   
+        text-align: left;
+      }
+    }
+    .right {
+      img {
+      }
+    }
+  }
+}

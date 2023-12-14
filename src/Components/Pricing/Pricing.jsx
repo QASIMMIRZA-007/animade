@@ -1,5 +1,5 @@
 import React from 'react'
-import style from './pricing.module.scss'
+import style from './Pricing.module.scss'
 import { icon } from '../../assets'
 import { BiUpArrowAlt } from "react-icons/bi";
 

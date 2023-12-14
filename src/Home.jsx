@@ -8,12 +8,12 @@ import Pricing from "./Components/Pricing/Pricing";
 import Mission from "./Components/Mission/Mission";
 import Contact from "./Components/Contact us/Contact";
 import Footer from "./Components/Footer/Footer";
-import { bgImg } from "./assets";
+
 
 function Home() {
   return (
     <div className="home">
-      {/* <img src={bgImg} className="bgImg"/> */}
+     
       <div className="bg">
         <Navbar />
         <Homepage />

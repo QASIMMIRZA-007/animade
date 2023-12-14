@@ -17,6 +17,6 @@ export { default as icon } from './Svgs/priceIcon.svg'
 export { default as Arrow } from './Svgs/Upparrow.svg'
 // 
 export { default as img }  from './Images/mission.png'
-export { default as bgImg} from './Images/AI.png'
+// export { default as bgImg} from './Images/AI.png'
 
 

@@ -19,7 +19,7 @@ function Home() {
         <Homepage />
       </div>
       <div className="bg2">
-      <Hero />
+      {/* <Hero /> */}
       <Cards/>
       <NFTs/>
       <Pricing/>

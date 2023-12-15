@@ -37,7 +37,6 @@ section {
         align-items: center;
         justify-content: center;
         gap: 26px;
-        
 
         flex-wrap: wrap;
         .cardImg {
@@ -52,22 +51,18 @@ section {
   }
 }
 
-
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   section {
-    
     .container {
       .subContainer {
-    
         margin-inline: auto;
         h3 {
-         margin-left: 57px;
-        
+          margin-left: 57px;
         }
         h4 {
           margin-left: 57px;
         }
-}
+      }
     }
   }
 }

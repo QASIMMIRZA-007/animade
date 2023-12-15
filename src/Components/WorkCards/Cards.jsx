@@ -1,5 +1,3 @@
-
-
 import React from "react";
 import style from "./work.module.scss";
 import { frameIcon } from "../../assets";
@@ -25,7 +23,8 @@ function Cards() {
       img: <img src={frameIcon} alt="Icon" />,
       heading: "Create stunning images",
       p: "Create stunning images using our AI Image generator & select the designs you like.",
-    }, {
+    },
+    {
       img: <img src={frameIcon} alt="Icon" />,
       heading: "Create stunning images",
       p: "Create stunning images using our AI Image generator & select the designs you like.",
@@ -35,7 +34,6 @@ function Cards() {
       heading: "Create stunning images",
       p: "Create stunning images using our AI Image generator & select the designs you like.",
     },
-   
   ];
 
   return (
@@ -59,4 +57,3 @@ function Cards() {
 }
 
 export default Cards;
-

@@ -2,18 +2,18 @@ section{
 
   // background: linear-gradient(360deg, #140E18 60.72%, rgba(20, 14, 24, 0.00) 100%);
   // opacity: .1;
-  // background: linear-gradient(180deg, #140E18 60.72%, rgba(20, 14, 24, 0.00) 0100%);
+  background: linear-gradient(180deg, #140E18 60.72%, rgba(20, 14, 24, 0.00) 0100%);
+  background: linear-gradient(180deg, #140E18 60.72%, rgba(20, 14, 24, 0.00) 100%);
 .heroContainer {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   width: 90%;
-height: 360px;
+// height: 360px;
 // margin: 50px 0;
-flex-shrink: 0;
   margin-inline: auto;
-  padding-top: 100px;
+  // padding-top: 100px;
   .card {
     width: 564px;
     height: 100px;
@@ -39,4 +39,31 @@ flex-shrink: 0;
     }
   }
 }
+}
+
+
+
+@media screen and (max-width:768px) {
+  .heroContainer{
+    flex-direction: column;
+    gap: 10px;
+    .card{
+      width: 90% !important;
+      .cardData{
+        width: 100%;
+        padding: 10px;
+        flex-direction: column;
+        padding: 10px !important;
+
+        img{
+          width: 30px;
+        }
+        p{
+          font-size: 12px !important;
+          line-height: normal !important;
+          text-align: center;
+        }
+      }
+    }
+  }
 }

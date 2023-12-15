@@ -1,6 +1,6 @@
 .mission {
-  background: #241d24;
-  opacity: 0.9;
+  // background: #241d24;
+  // opacity: 0.9;
   h1 {
     color: var(--Dark-V0, #fff);
     text-align: center;
@@ -11,6 +11,7 @@
     line-height: normal;
     text-transform: capitalize;
     margin-bottom: 10px;
+    margin: 20px 0 10px 0;
   }
 
   .para {
@@ -54,6 +55,53 @@
     }
     .right {
       img {
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width:768px) {
+  .mission {
+ 
+    h1 {
+      color: var(--Dark-V0, #fff);
+ 
+      margin-bottom: 10px;
+    }
+  
+    .para {
+    font-size: 16px !important;
+    }
+  
+    .container {
+      
+      flex-direction: column;
+  
+      .left {
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+  
+        h2 {
+         font-size: 20px !important;
+         text-align: center;
+         margin: 10px 0;
+        }
+        .p {
+          
+          font-size: 16px !important;
+          width: 80% !important;
+          margin-inline: auto;
+         
+        }
+      }
+      .right {
+        img {
+          width: 400px;
+          object-fit: cover;
+          object-position: center;
+        }
       }
     }
   }

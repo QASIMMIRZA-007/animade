@@ -1,3 +1,5 @@
+section{
+  background: url('./assets/Images/bg3.png')  no-repeat;
 
 
 h1{
@@ -7,6 +9,7 @@ font-size: 60px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+
 text-transform: capitalize;
 text-align: center;
 margin: 50px 0  30px 0;
@@ -61,4 +64,5 @@ backdrop-filter: blur(90px);
           }
         }
     }
+}
 }

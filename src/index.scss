@@ -29,7 +29,7 @@ body,html{
 background: linear-gradient(180deg, #140E18 60.72%, rgba(20, 14, 24, 0) 100%);
 opacity: 1;
 color: #fff;
-background: url('./assets/Images/Ai.png')  no-repeat, #430920;
+background: url('./assets/Images/bgg1.png')  no-repeat, #430920;
 // overflow: hidden;
 opacity: 1;
 
@@ -94,11 +94,16 @@ text-transform: capitalize;
   width: var(--container-width-md);
   margin-inline: auto;
 }
-.bg{
-  height: 110vh;
- 
-}
+
 // .bg2{
 // background: url('./assets/Images/AI2.png')  no-repeat, #430920;
 
 // }
+
+@media screen and (max-width:768px) {
+.p{
+  width: 80%;
+  margin-inline: auto;
+}
+
+}
